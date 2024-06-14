@@ -271,14 +271,3 @@ body {
   }
 }
 
-.dot {
-  position:absolute;
-  width:30px;
-  height:30px;
-  border-radius:15px;
-  -moz-border-radius:15px;
-  -webkit-border-radius:15px;
-  background-color:purple;
-  left:0;
-  top:0;
-}
