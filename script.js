@@ -100,66 +100,67 @@ button.addEventListener("click", (event) => {
   currentThemeSetting = newTheme;
 }); 
 
-const coords = { x: 0, y: 0 };
-const circles = document.querySelectorAll(".circle");
+var trail = {
+  dots: null,
+  mousex:0,
+  mousey:0,
+  length:10,
+  Dot: function()
+  {
+    var oDot = document.createElement("div");
+    $(oDot).addClass("dot");
+    $(document.body).append(oDot);
+    return oDot;
+  },
 
-const colors = [
-  "#ffb56b",
-  "#fdaf69",
-  "#f89d63",
-  "#f59761",
-  "#ef865e",
-  "#ec805d",
-  "#e36e5c",
-  "#df685c",
-  "#d5585c",
-  "#d1525c",
-  "#c5415d",
-  "#c03b5d",
-  "#b22c5e",
-  "#ac265e",
-  "#9c155f",
-  "#950f5f",
-  "#830060",
-  "#7c0060",
-  "#680060",
-  "#60005f",
-  "#48005f",
-  "#3d005e"
-];
-
-circles.forEach(function (circle, index) {
-  circle.x = 0;
-  circle.y = 0;
-  circle.style.backgroundColor = colors[index % colors.length];
-});
-
-window.addEventListener("mousemove", function(e){
-  coords.x = e.clientX;
-  coords.y = e.clientY;
+  createDots: function()
+  {
+    trail.dots = [];
+    for(i=0;i<trail.length;i++)
+    {
+      var dot = new trail.Dot();          
+      $(dot).css({opacity:(trail.length-i)/trail.length});
+      trail.dots[i]= dot;
+    }
+  },
   
-});
-
-function animateCircles() {
-  
-  let x = coords.x;
-  let y = coords.y;
-  
-  circles.forEach(function (circle, index) {
-    circle.style.left = x - 12 + "px";
-    circle.style.top = y - 12 + "px";
+  follow: function(tx, ty, dot)
+  {
+    var dotx = parseInt($(dot).css("left"));
+    var doty = parseInt($(dot).css("top"));
+    var newx = ((tx+dotx*2)/3);
+    var newy = ((ty+doty*2)/3);
     
-    circle.style.scale = (circles.length - index) / circles.length;
+    $(dot).css({top:newy, left:newx});    
+  },
+  
+  move: function()
+  {
+    trail.follow(trail.mousex, trail.mousey, trail.dots[0]);
     
-    circle.x = x;
-    circle.y = y;
+    for(i=1;i<trail.length;i++)
+    {
+      dot = trail.dots[i-1];
+      var tx = parseInt($(dot).css("left"));
+      var ty = parseInt($(dot).css("top"));
+      trail.follow(tx,ty, trail.dots[i]);
+    }
+  },
+  mousemove: function(mx,my)
+  {
+    trail.mousex = mx;
+    trail.mousey = my;
+  },
+  
+  initialize: function()
+  {
+    trail.createDots();
+    setInterval(function(){ trail.move(); }, 10);
+  }
+};
+    
+trail.initialize();
 
-    const nextCircle = circles[index + 1] || circles[0];
-    x += (nextCircle.x - x) * 0.3;
-    y += (nextCircle.y - y) * 0.3;
-  });
- 
-  requestAnimationFrame(animateCircles);
-}
-
-animateCircles();
+$(document).mousemove(function(e){
+  trail.mousemove(e.pageX, e.pageY);
+});
