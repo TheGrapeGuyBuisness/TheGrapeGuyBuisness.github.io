@@ -1,237 +1,169 @@
 {
-    "Breaststroke": {
-      "title": "Breaststroke Technique",
-      "content": "Breaststroke is a swimming stroke where the swimmer is on their chest and moves their arms in a half-circle motion while kicking with a frog-like kick.",
-      "videos": [
-        {
-          "title": "Breaststroke Tutorial",
-          "url": "https://www.youtube.com/embed/somevideoid"
-        },
-        {
-          "title": "Breaststroke Common Mistakes",
-          "url": "https://www.youtube.com/embed/anothervideoid"
-        }
-      ]
-    },
-    "Freestyle": {
-      "title": "Freestyle Technique",
-      "content": "Freestyle, also known as front crawl, is the fastest swimming stroke, where the swimmer alternates their arms while flutter kicking.",
-      "videos": [
-        {
-          "title": "Freestyle Stroke Breakdown",
-          "url": "https://www.youtube.com/embed/someothervideoid"
-        },
-        {
-          "title": "Freestyle Tips for Speed",
-          "url": "https://www.youtube.com/embed/yetanotherid"
-        }
-      ]
-    },
-    "Backstroke": {
-      "title": "Backstroke Technique",
-      "content": "Backstroke is a stroke where the swimmer lies on their back and alternates arm movements while performing a flutter kick. It is the only stroke swum on the back.",
-      "videos": [
-        {
-          "title": "Backstroke Stroke Analysis",
-          "url": "https://www.youtube.com/embed/backstrokestrokeid"
-        },
-        {
-          "title": "Backstroke Common Mistakes",
-          "url": "https://www.youtube.com/embed/backstrokeerrorsid"
-        }
-      ]
-    },
-    "Butterfly": {
-      "title": "Butterfly Stroke Technique",
-      "content": "The butterfly stroke is a fast, dynamic swimming stroke that involves both arms moving in a circular motion while performing a dolphin kick.",
-      "videos": [
-        {
-          "title": "Butterfly Stroke Tutorial",
-          "url": "https://www.youtube.com/embed/butterflytutorialid"
-        },
-        {
-          "title": "Butterfly Kick Tips",
-          "url": "https://www.youtube.com/embed/butterflykicktipsid"
-        }
-      ]
-    },
-    "Individual Medley (IM)": {
-      "title": "Individual Medley (IM) Technique",
-      "content": "The Individual Medley (IM) is a race where the swimmer swims all four strokes in the following order: butterfly, backstroke, breaststroke, and freestyle.",
-      "videos": [
-        {
-          "title": "IM Breakdown",
-          "url": "https://www.youtube.com/embed/imbreakdownid"
-        },
-        {
-          "title": "IM Strategy for Success",
-          "url": "https://www.youtube.com/embed/imstrategyid"
-        }
-      ]
-    },
-    "Medley Relay": {
-      "title": "Medley Relay Technique",
-      "content": "The Medley Relay involves four swimmers, each swimming one of the four strokes (butterfly, backstroke, breaststroke, and freestyle) in the IM order.",
-      "videos": [
-        {
-          "title": "Medley Relay Tips",
-          "url": "https://www.youtube.com/embed/medleyrelaytipsid"
-        },
-        {
-          "title": "Relay Team Transitions",
-          "url": "https://www.youtube.com/embed/relaytransitionsid"
-        }
-      ]
-    },
-    "Open Water Swimming": {
-      "title": "Open Water Swimming Technique",
-      "content": "Open water swimming takes place in natural bodies of water. Techniques include sighting and endurance, with swimmers typically using the freestyle stroke.",
-      "videos": [
-        {
-          "title": "Open Water Swimming Basics",
-          "url": "https://www.youtube.com/embed/openwaterbasicsid"
-        },
-        {
-          "title": "Tips for Open Water Swimmers",
-          "url": "https://www.youtube.com/embed/openwatertipsid"
-        }
-      ]
-    },
-    "Kick Drills": {
-      "title": "Kick Drills Technique",
-      "content": "Kick drills are essential for improving leg strength and kicking technique for all strokes. These drills focus on developing efficient kicks.",
-      "videos": [
-        {
-          "title": "Freestyle Kick Drill",
-          "url": "https://www.youtube.com/embed/freestylekickdrillid"
-        },
-        {
-          "title": "Breaststroke Kick Drill",
-          "url": "https://www.youtube.com/embed/breaststrokekickdrillid"
-        },
-        {
-          "title": "Butterfly Kick Drill",
-          "url": "https://www.youtube.com/embed/butterflykickdrillid"
-        }
-      ]
-    },
-    "Pull Drills": {
-      "title": "Pull Drills Technique",
-      "content": "Pull drills focus on arm movements and technique, helping to build upper body strength and improve stroke efficiency for all strokes.",
-      "videos": [
-        {
-          "title": "Freestyle Pull Drill",
-          "url": "https://www.youtube.com/embed/freestylepulldrillid"
-        },
-        {
-          "title": "Backstroke Pull Drill",
-          "url": "https://www.youtube.com/embed/backstrokepulldrillid"
-        },
-        {
-          "title": "Butterfly Pull Drill",
-          "url": "https://www.youtube.com/embed/butterflypulldrillid"
-        }
-      ]
-    },
-    "Starts": {
-      "title": "Swimming Starts Technique",
-      "content": "The start is crucial in competitive swimming. A strong, quick start helps swimmers gain an early advantage. Key techniques include diving and underwater swimming.",
-      "videos": [
-        {
-          "title": "Freestyle Start",
-          "url": "https://www.youtube.com/embed/freestylestartid"
-        },
-        {
-          "title": "Backstroke Start",
-          "url": "https://www.youtube.com/embed/backstrokestartid"
-        },
-        {
-          "title": "Butterfly Start",
-          "url": "https://www.youtube.com/embed/butterflystartid"
-        },
-        {
-          "title": "Breaststroke Start",
-          "url": "https://www.youtube.com/embed/breaststrokestartid"
-        }
-      ]
-    },
-    "Turns": {
-      "title": "Swimming Turns Technique",
-      "content": "Swimming turns are a critical part of race strategy. A fast, efficient turn can save valuable time during a race.",
-      "videos": [
-        {
-          "title": "Freestyle Flip Turn",
-          "url": "https://www.youtube.com/embed/freestyleflipturnid"
-        },
-        {
-          "title": "Backstroke Flip Turn",
-          "url": "https://www.youtube.com/embed/backstrokeflipturnid"
-        },
-        {
-          "title": "Butterfly Turn",
-          "url": "https://www.youtube.com/embed/butterflyturnid"
-        },
-        {
-          "title": "Breaststroke Turn",
-          "url": "https://www.youtube.com/embed/breaststroketurnid"
-        }
-      ]
-    },
-    "Endurance Training": {
-      "title": "Endurance Training for Swimming",
-      "content": "Endurance training is crucial for long-distance swimmers. It involves building stamina through consistent practice and interval training.",
-      "videos": [
-        {
-          "title": "Endurance Swim Workout",
-          "url": "https://www.youtube.com/embed/enduranceswimworkoutid"
-        },
-        {
-          "title": "Interval Training for Endurance",
-          "url": "https://www.youtube.com/embed/intervaltrainingid"
-        }
-      ]
-    },
-    "Speed Training": {
-      "title": "Speed Training for Swimming",
-      "content": "Speed training helps swimmers develop explosive power and fast-twitch muscle fibers. It focuses on short bursts of intense effort.",
-      "videos": [
-        {
-          "title": "Speed Swim Drills",
-          "url": "https://www.youtube.com/embed/speedswimdrillsid"
-        },
-        {
-          "title": "Sprinting Technique for Swimmers",
-          "url": "https://www.youtube.com/embed/sprinttechniqueid"
-        }
-      ]
-    },
-    "Recovery": {
-      "title": "Swimming Recovery Techniques",
-      "content": "Recovery is vital after intense swimming sessions. Techniques include stretching, hydration, and rest to prevent injury and aid in muscle repair.",
-      "videos": [
-        {
-          "title": "Post-Swim Stretching",
-          "url": "https://www.youtube.com/embed/strechafterid"
-        },
-        {
-          "title": "Swimming Recovery Techniques",
-          "url": "https://www.youtube.com/embed/recoverytechniquesid"
-        }
-      ]
-    },
-    "Mental Techniques": {
-      "title": "Mental Techniques for Swimmers",
-      "content": "Mental techniques like visualization and positive self-talk help swimmers stay focused and calm during races.",
-      "videos": [
-        {
-          "title": "Mental Training for Swimmers",
-          "url": "https://www.youtube.com/embed/mentaltrainingid"
-        },
-        {
-          "title": "Visualization Techniques for Swimmers",
-          "url": "https://www.youtube.com/embed/visualizationtechniquesid"
-        }
-      ]
-    }
+  "Breaststroke": {
+    "title": "Breaststroke Technique",
+    "content": "Breaststroke is a swimming stroke where the swimmer is on their chest and moves their arms in a half-circle motion while kicking with a frog-like kick. It is a slower stroke, making it ideal for distance swimming. Key elements include maintaining proper body position (horizontal and streamlined), breathing at the correct moments, and coordinating the arm and leg movements.",
+    "breathing": "In breaststroke, breathe during the arm recovery phase. As your arms sweep back, lift your head slightly out of the water, take a deep breath, and then return your head to the water as your arms move forward.",
+    "videos": [
+      {
+        "title": "Breaststroke Tutorial",
+        "url": "https://www.youtube.com/embed/somevideoid"
+      },
+      {
+        "title": "Breaststroke Common Mistakes",
+        "url": "https://www.youtube.com/embed/anothervideoid"
+      }
+    ]
+  },
+  "Freestyle": {
+    "title": "Freestyle Technique",
+    "content": "Freestyle, also known as front crawl, is the fastest swimming stroke, where the swimmer alternates their arms while flutter kicking. It's a high-speed stroke that requires excellent coordination of breathing, arm movement, and leg kicks. Focus on long, powerful strokes and an efficient flutter kick to maintain speed.",
+    "breathing": "In freestyle, breathe every two or three strokes. As one arm pulls underwater, turn your head to the side to take a breath. Ensure that your head stays aligned with your body to minimize resistance.",
+    "videos": [
+      {
+        "title": "Freestyle Stroke Breakdown",
+        "url": "https://www.youtube.com/embed/someothervideoid"
+      },
+      {
+        "title": "Freestyle Tips for Speed",
+        "url": "https://www.youtube.com/embed/yetanotherid"
+      }
+    ]
+  },
+  "Backstroke": {
+    "title": "Backstroke Technique",
+    "content": "Backstroke is a stroke where the swimmer lies on their back and alternates arm movements while performing a flutter kick. It is the only stroke swum on the back and requires good balance and core strength to maintain a straight line in the water.",
+    "breathing": "In backstroke, the swimmer should keep their face above the water at all times, so breathing is natural. Focus on a steady rhythm and avoid holding your breath.",
+    "videos": [
+      {
+        "title": "Backstroke Stroke Analysis",
+        "url": "https://www.youtube.com/embed/backstrokestrokeid"
+      },
+      {
+        "title": "Backstroke Common Mistakes",
+        "url": "https://www.youtube.com/embed/backstrokeerrorsid"
+      }
+    ]
+  },
+  "Butterfly": {
+    "title": "Butterfly Stroke Technique",
+    "content": "The butterfly stroke is a fast, dynamic swimming stroke that involves both arms moving in a circular motion while performing a dolphin kick. This stroke requires high coordination and strength, particularly in the chest and shoulders.",
+    "breathing": "In butterfly, the swimmer breathes as their arms pull through the water. At the peak of the arm recovery, lift your head out of the water and take a breath. Keep your movements smooth to avoid excessive splashing.",
+    "videos": [
+      {
+        "title": "Butterfly Stroke Tutorial",
+        "url": "https://www.youtube.com/embed/butterflytutorialid"
+      },
+      {
+        "title": "Butterfly Kick Tips",
+        "url": "https://www.youtube.com/embed/butterflykicktipsid"
+      }
+    ]
+  },
+  "Individual Medley (IM)": {
+    "title": "Individual Medley (IM) Technique",
+    "content": "The Individual Medley (IM) is a race where the swimmer swims all four strokes in the following order: butterfly, backstroke, breaststroke, and freestyle. Transitioning between each stroke requires precision and strategy.",
+    "breathing": "Breathing techniques vary by stroke. Focus on maintaining a steady rhythm during each transition and conserve energy, especially during the butterfly and breaststroke phases.",
+    "videos": [
+      {
+        "title": "IM Breakdown",
+        "url": "https://www.youtube.com/embed/imbreakdownid"
+      },
+      {
+        "title": "IM Strategy for Success",
+        "url": "https://www.youtube.com/embed/imstrategyid"
+      }
+    ]
+  },
+  "Medley Relay": {
+    "title": "Medley Relay Technique",
+    "content": "The Medley Relay involves four swimmers, each swimming one of the four strokes (butterfly, backstroke, breaststroke, and freestyle) in the IM order. A strong, efficient transition between swimmers is crucial.",
+    "breathing": "In the relay, focus on efficient breathing during each stroke while ensuring smooth handoffs with your teammates. Anticipate the start of your leg by breathing rhythmically.",
+    "videos": [
+      {
+        "title": "Medley Relay Tips",
+        "url": "https://www.youtube.com/embed/medleyrelaytipsid"
+      },
+      {
+        "title": "Relay Team Transitions",
+        "url": "https://www.youtube.com/embed/relaytransitionsid"
+      }
+    ]
+  },
+  "Open Water Swimming": {
+    "title": "Open Water Swimming Technique",
+    "content": "Open water swimming takes place in natural bodies of water. Techniques include sighting and endurance, with swimmers typically using the freestyle stroke. In open water, swimmers need to deal with waves, currents, and the lack of lane markers.",
+    "breathing": "Breathing in open water requires extra awareness since the swimmer’s head is often out of sync with their strokes. Sighting (looking ahead) can help with navigation, but always make sure to take deep, controlled breaths to avoid fatigue.",
+    "videos": [
+      {
+        "title": "Open Water Swimming Basics",
+        "url": "https://www.youtube.com/embed/openwaterbasicsid"
+      },
+      {
+        "title": "Tips for Open Water Swimmers",
+        "url": "https://www.youtube.com/embed/openwatertipsid"
+      }
+    ]
+  },
+  "Breathing Drills": {
+    "title": "Breathing Techniques and Drills",
+    "content": "Breathing is essential to all swimming strokes. Mastering breath control and efficiency is key for maintaining endurance and speed. Here are some techniques to improve your breathing:",
+    "drills": [
+      {
+        "title": "3-3-3 Breathing Drill",
+        "description": "Swim freestyle for three strokes, then breathe to your left for three strokes, then breathe to your right for three strokes. Repeat for a set distance to develop bilateral breathing.",
+        "videos": [
+          {
+            "title": "3-3-3 Drill",
+            "url": "https://www.youtube.com/embed/333drillid"
+          }
+        ]
+      },
+      {
+        "title": "Exhalation Drill",
+        "description": "Practice exhaling fully underwater before taking a breath to increase lung capacity and improve efficiency. This drill helps swimmers avoid the tendency to hold their breath.",
+        "videos": [
+          {
+            "title": "Exhalation Practice",
+            "url": "https://www.youtube.com/embed/exhalationdrillid"
+          }
+        ]
+      }
+    ]
+  },
+  "Kick Drills": {
+    "title": "Kick Drills Technique",
+    "content": "Kick drills are essential for improving leg strength and kicking technique for all strokes. These drills focus on developing efficient kicks that help propel the swimmer through the water.",
+    "videos": [
+      {
+        "title": "Freestyle Kick Drill",
+        "url": "https://www.youtube.com/embed/freestylekickdrillid"
+      },
+      {
+        "title": "Breaststroke Kick Drill",
+        "url": "https://www.youtube.com/embed/breaststrokekickdrillid"
+      },
+      {
+        "title": "Butterfly Kick Drill",
+        "url": "https://www.youtube.com/embed/butterflykickdrillid"
+      }
+    ]
+  },
+  "Pull Drills": {
+    "title": "Pull Drills Technique",
+    "content": "Pull drills focus on arm movements and technique, helping to build upper body strength and improve stroke efficiency for all strokes. These drills emphasize the pull phase of the stroke.",
+    "videos": [
+      {
+        "title": "Freestyle Pull Drill",
+        "url": "https://www.youtube.com/embed/freestylepulldrillid"
+      },
+      {
+        "title": "Backstroke Pull Drill",
+        "url": "https://www.youtube.com/embed/backstrokepulldrillid"
+      },
+      {
+        "title": "Butterfly Pull Drill",
+        "url": "https://www.youtube.com/embed/butterflypulldrillid"
+      }
+    ]
   }
-  
+}
