@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swimming Revision</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e1e2e, #3b3b5c);
+            color: white;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            transition: all 0.5s ease-in-out;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #ffcc00;
+            text-align: center;
+            margin-bottom: 2vh;
+            text-shadow: 2px 2px 8px rgba(255, 204, 0, 0.7);
+            font-size: 6vw;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .button {
+            padding: 4vw 8vw;
+            margin: 2vh;
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s ease-in-out;
+            font-size: 5vw;
+            box-shadow: 0 4px 10px rgba(98, 0, 234, 0.2);
+            width: 90%;
+            max-width: 300px;
+        }
+
+        .button:hover {
+            background-color: #3700b3;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(98, 0, 234, 0.4);
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 4vw;
+            margin: 5vh 0;
+            background-color: #333;
+            color: white;
+            border: 1px solid #6200ea;
+            border-radius: 8px;
+            font-size: 4vw;
+            transition: all 0.3s ease-in-out;
+            max-width: 90%;
+        }
+
+        .search-bar::placeholder {
+            color: #999;
+        }
+
+        .search-bar:focus {
+            border-color: #ffcc00;
+            outline: none;
+        }
+
+        .stroke-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 5vh;
+        }
+
+        .stroke-list button {
+            width: 90%;
+            max-width: 300px;
+            margin-bottom: 2vh;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in forwards;
+        }
+
+        .revision-section {
+            margin-top: 2vh;
+            display: none;
+            opacity: 0;
+            animation: slideUp 0.5s forwards;
+        }
+
+        @keyframes slideUp {
+            0% { transform: translateY(20px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        .video {
+            margin-top: 2vh;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            margin: 10px 0;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        iframe:hover {
+            transform: scale(1.05);
+        }
+
+        .revision-content {
+            text-align: center;
+            font-size: 5vw;
+            line-height: 1.5;
+            margin-bottom: 5vh;
+            transition: color 0.3s ease;
+        }
+
+        /* Mobile-specific media queries for various sizes */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 8vw;
+                margin-bottom: 5vh;
+            }
+
+            .button {
+                padding: 6vw 12vw;
+                font-size: 5vw;
+                width: 90%;
+            }
+
+            .search-bar {
+                padding: 5vw;
+                font-size: 5vw;
+            }
+
+            iframe {
+                height: 180px;
+            }
+
+            .stroke-list {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .stroke-list button {
+                width: 90%;
+                margin-bottom: 4vh;
+            }
+
+            .video iframe {
+                height: 160px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 10vw;
+                margin-bottom: 6vh;
+            }
+
+            .button {
+                padding: 8vw 16vw;
+                font-size: 7vw;
+                width: 90%;
+            }
+
+            .search-bar {
+                padding: 6vw;
+                font-size: 6vw;
+            }
+
+            .stroke-list button {
+                width: 85%;
+                margin-bottom: 6vh;
+            }
+
+            iframe {
+                height: 150px;
+            }
+
+            .revision-content {
+                font-size: 6vw;
+            }
+        }
+
+        @media (max-width: 320px) {
+            h1 {
+                font-size: 12vw;
+                margin-bottom: 8vh;
+            }
+
+            .button {
+                padding: 10vw 20vw;
+                font-size: 8vw;
+                width: 90%;
+            }
+
+            .search-bar {
+                padding: 7vw;
+                font-size: 7vw;
+            }
+
+            iframe {
+                height: 130px;
+            }
+
+            .stroke-list button {
+                width: 80%;
+                margin-bottom: 8vh;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Swimming Revision</h1>
+    <div class="container">
+        <!-- Search Bar -->
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search for a stroke or technique..." onkeyup="filterStrokes()">
+
+        <!-- Main Menu -->
+        <div id="menu" class="stroke-list">
+            <!-- Buttons will be loaded dynamically -->
+        </div>
+
+        <!-- Revision Section -->
+        <div id="revision-container" class="revision-section">
+            <h2 id="revision-title"></h2>
+            <div id="revision-content" class="revision-content"></div>
+            <div id="revision-videos"></div>
+            <button class="button" onclick="backToMenu()">Back to Menu</button>
+        </div>
+    </div>
+
+    <script>
+        let revisionData = {};
+
+        // Fetch the revision JSON data dynamically
+        fetch('revision.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log("Revision Data Loaded: ", data); // Debugging: Log out the JSON data
+                revisionData = data;
+                loadStrokeButtons();
+            })
+            .catch(error => {
+                console.error('Error loading revision.json:', error);
+            });
+
+        // Load the stroke buttons dynamically based on the JSON
+        function loadStrokeButtons() {
+            const menu = document.getElementById('menu');
+            for (const stroke in revisionData) {
+                const button = document.createElement('button');
+                button.className = 'button';
+                button.textContent = stroke;
+                button.onclick = () => startRevision(stroke);
+                menu.appendChild(button);
+            }
+        }
+
+        // Start revision for a selected stroke
+        function startRevision(stroke) {
+            document.getElementById('menu').style.display = 'none';
+            document.getElementById('revision-container').style.display = 'block';
+            document.getElementById('revision-container').style.animation = 'slideUp 0.5s forwards';
+
+            const revision = revisionData[stroke];
+            if (!revision) {
+                alert("No revision data available for this stroke.");
+                return;
+            }
+
+            document.getElementById('revision-title').innerText = revision.title;
+            document.getElementById('revision-content').innerText = revision.content;
+
+            let videoHTML = '';
+            revision.videos.forEach(video => {
+                videoHTML += `
+                    <div class="video">
+                        <h3>${video.title}</h3>
+                        <iframe src="${video.url}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                `;
+            });
+
+            document.getElementById('revision-videos').innerHTML = videoHTML;
+        }
+
+        // Go back to the main menu
+        function backToMenu() {
+            document.getElementById('revision-container').style.display = 'none';
+            document.getElementById('menu').style.display = 'block';
+        }
+
+        // Filter strokes based on search input
+        function filterStrokes() {
+            const searchQuery = document.getElementById('search-bar').value.toLowerCase();
+            const buttons = document.querySelectorAll('#menu .button');
+            buttons.forEach(button => {
+                const strokeName = button.textContent.toLowerCase();
+                if (strokeName.includes(searchQuery)) {
+                    button.style.display = 'block';
+                } else {
+                    button.style.display = 'none';
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
