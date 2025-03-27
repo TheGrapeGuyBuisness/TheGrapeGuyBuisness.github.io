@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swimming Techniques</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Swimming Stroke Techniques</h1>
+
+        <div id="strokes-list"></div> <!-- This is where the stroke data will be injected -->
+    </div>
+
+    <script>
+        // Fetch the JSON file containing the swimming stroke data
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const strokesList = document.getElementById('strokes-list');
+
+                // Loop through each stroke and create the content dynamically
+                for (const stroke in data) {
+                    const strokeData = data[stroke];
+                    let strokeContent = `<section class="stroke">
+                        <h2>${stroke}</h2>
+                        <p>${strokeData.content}</p>
+                        
+                        <h3>Stroke Technique</h3>
+                        <ul>`;
+                    
+                    // Loop through stroke technique items
+                    for (const technique in strokeData['stroke_technique']) {
+                        strokeContent += `<li><strong>${technique}:</strong> ${strokeData['stroke_technique'][technique]}</li>`;
+                    }
+
+                    strokeContent += `</ul>
+                        <h3>Breathing</h3>
+                        <p>${strokeData.breathing.content}</p>
+                        <ul>`;
+
+                    // Loop through breathing advanced tips
+                    strokeData.breathing.advanced_tips.forEach(tip => {
+                        strokeContent += `<li>${tip}</li>`;
+                    });
+
+                    strokeContent += `</ul>
+                        <h3>Kick Efficiency</h3>
+                        <p>${strokeData['kick_efficiency'].content}</p>
+                        <p><strong>Drill:</strong> ${strokeData['kick_efficiency'].drill}</p>
+                        <h3>Videos</h3>
+                        <ul>`;
+
+                    // Loop through video links
+                    strokeData.videos.forEach(video => {
+                        strokeContent += `<li><a href="${video.url}" target="_blank">${video.title}</a></li>`;
+                    });
+
+                    strokeContent += `</ul>
+                        <h3>Olympian Advice</h3>
+                        <p>${strokeData.olympian_advice}</p>
+                    </section>`;
+
+                    // Append the stroke content to the strokes list
+                    strokesList.innerHTML += strokeContent;
+                }
+            })
+            .catch(error => console.error('Error loading JSON data:', error));
+    </script>
+</body>
+</html>

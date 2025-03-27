@@ -1,0 +1,108 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2b2b2b; /* Dark background */
+    color: #e1e1e1; /* Light text color */
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif;
+    color: #d9b2f0; /* Cosmic purple */
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.stroke {
+    background: #3a3a3a; /* Dark gray background for each stroke */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.stroke h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.stroke ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.stroke ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.stroke ul li::before {
+    content: '•';
+    color: #d9b2f0; /* Cosmic purple bullet */
+    padding-right: 10px;
+}
+
+.stroke p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #c0c0c0; /* Slightly lighter text for descriptions */
+}
+
+.stroke a {
+    color: #d9b2f0; /* Cosmic purple for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stroke a:hover {
+    color: #ffffff; /* Hover effect */
+    text-decoration: underline;
+}
+
+#strokes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#strokes-list section {
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #d9b2f0;
+}
+
+footer p {
+    font-size: 1em;
+}

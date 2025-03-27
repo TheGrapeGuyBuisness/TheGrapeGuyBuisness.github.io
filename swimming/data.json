@@ -1,0 +1,122 @@
+{
+  "Freestyle": {
+    "content": "Freestyle (front crawl) is the fastest swimming stroke, characterized by alternating arm movements and a flutter kick. The goal is to minimize drag while maximizing propulsion. The stroke is efficient and allows swimmers to maintain a fast pace for long periods.",
+    "stroke_technique": {
+      "Arm Movement": "The arms alternate in a windmill motion. One arm pulls through the water while the other recovers above the surface. The pulling arm moves in a circular motion under the water, while the recovering arm comes out of the water to re-enter smoothly. Focus on a high-elbow catch to generate more propulsion. When pulling, think about pulling the water back rather than pulling yourself forward to increase efficiency.",
+      "Body Position": "Your body should stay as flat and horizontal as possible, with your head in line with the body and minimal roll to the sides. Keep your core engaged to maintain body alignment. Ensure minimal movement from the legs to prevent unnecessary drag, keeping them as streamlined as possible. Avoid excessive body rotation; a slight roll is beneficial for stroke efficiency but should be minimal.",
+      "Flutter Kick": "The legs perform a quick, alternating kick. The legs should remain straight but relaxed, with small, rapid kicks coming from the hips. Make sure the feet remain below the surface to reduce drag and provide propulsion. The ankles should be loose, and the kick should generate propulsion from the core, not just the legs."
+    },
+    "breathing": {
+      "content": "Breathing in freestyle is done by turning the head to the side during the arm recovery phase. Avoid lifting your head too high out of the water, as this creates drag. Keep your breathing relaxed to prevent fatigue, and try to keep your face close to the water to minimize resistance. Use your body’s rotation to help with breathing.",
+      "advanced_tips": [
+        "Inhale quickly through your mouth and exhale gently through your nose. Focus on breathing every 2 to 3 strokes to maintain a steady rhythm. If possible, avoid lifting your head to breathe, instead turning it smoothly to one side.",
+        "Focus on turning your head to breathe rather than lifting it up. Keep your mouth above water for a smooth and efficient breath. Try bilateral breathing (breathing on both sides) to maintain balance. This will help reduce muscle strain and maintain an even stroke."
+      ]
+    },
+    "kick_efficiency": {
+      "content": "A strong and steady flutter kick is vital for maintaining speed and body position. A weak kick can cause the swimmer's body to sink. Your kick should be quick and compact to avoid unnecessary resistance. The faster the kick, the less likely it is for the body to drag. However, a powerful kick is more about efficiency than speed.",
+      "drill": "The '3-3-3 Drill' involves swimming freestyle for 3 strokes using only your arms, then 3 strokes using only your legs, and then 3 strokes using both arms and legs. This drill focuses on kick and arm isolation to increase efficiency. Another drill to focus on flutter kick efficiency is 'vertical kicking' in deep water to work on leg strength. This drill helps you develop core strength and kick endurance."
+    },
+    "videos": [
+      {
+        "title": "Freestyle Stroke Technique",
+        "url": "https://www.youtube.com/watch?v=1u4roZYTi_k"
+      },
+      {
+        "title": "Freestyle Drills for Beginners",
+        "url": "https://www.youtube.com/watch?v=6F_JOQ_tGyQ"
+      }
+    ],
+    "olympian_advice": "Penny Oleksiak recommends focusing on keeping your head low and your body flat. She emphasizes minimizing time spent out of the water to maintain momentum. Additionally, she advises keeping a steady, controlled breathing rhythm to avoid fatigue. She also suggests that the key to success is efficiency rather than speed, as trying to swim too fast without proper technique can lead to burnout."
+  },
+  "Backstroke": {
+    "content": "Backstroke is swum on your back with an alternating arm stroke and flutter kick. It’s the only stroke where you remain on your back, which presents a unique challenge in maintaining body position. The goal is to maintain a steady rhythm and avoid drifting out of the lane.",
+    "stroke_technique": {
+      "Arm Movement": "Both arms move in a circular motion. The hand enters the water with the pinky first and pulls down and out. Keep the elbows high and the wrists relaxed to reduce drag. The arm recovery phase should remain smooth and continuous. Focus on maintaining a high elbow throughout the stroke to increase efficiency and reduce resistance.",
+      "Body Position": "Maintain a horizontal position with the body slightly undulating to keep momentum going. Your face should stay above the water, and the body should stay streamlined. Engage your core to keep the body from sinking. You should feel as though you are swimming on a 'platform' in the water, with your body staying as flat as possible.",
+      "Flutter Kick": "The legs alternate in a flutter kick. The knees should remain slightly bent, and the kick should come from the hips. Focus on keeping a rhythmic kick to provide steady propulsion. A well-executed flutter kick will prevent the body from sinking and allow for constant forward movement. It should not be too erratic, as this can disrupt the body's balance."
+    },
+    "breathing": {
+      "content": "Breathing in backstroke is relatively easy as the head stays above the water. The key is to maintain a steady rhythm without straining. However, remember to keep the breathing relaxed and consistent with the strokes to avoid tiring out quickly.",
+      "advanced_tips": [
+        "Try to focus on a consistent, even rhythm between your kick and arm strokes. Overexerting yourself with either one can lead to fatigue. Ensure your strokes and kicks are balanced for optimal propulsion.",
+        "If you find yourself breathing too quickly, relax and slow down to maintain control. You can also try breathing every 2-3 strokes to maintain a steady pace. Be mindful of your neck position to avoid unnecessary tension during the stroke."
+      ]
+    },
+    "kick_efficiency": {
+      "content": "Efficient flutter kicks are vital for keeping your body in a horizontal position and maintaining speed. Poor kick efficiency can result in a slow and ineffective backstroke. Focus on consistent, smooth kicks to keep your body aligned and reduce drag. A well-executed flutter kick will allow for efficient movement without unnecessary effort.",
+      "drill": "Practice backstroke with a kickboard to isolate your legs and build leg strength. You can also work on the 'two kicks per arm stroke' method to balance your rhythm and ensure that the kick complements the arm stroke for efficient propulsion."
+    },
+    "videos": [
+      {
+        "title": "Backstroke Technique for Beginners",
+        "url": "https://www.youtube.com/watch?v=R5SZZb9C2Ww"
+      },
+      {
+        "title": "Backstroke Drills for Better Technique",
+        "url": "https://www.youtube.com/watch?v=6JMTG9H2iCo"
+      }
+    ],
+    "olympian_advice": "Michael Phelps emphasizes the importance of smooth arm movements and keeping the body position streamlined. Focus on relaxation, keeping the body loose, and avoiding excess tension. He also advises keeping a steady and relaxed breathing rhythm. When performing backstroke, think about maintaining a consistent rhythm and don't waste energy by overexerting yourself in any particular phase of the stroke."
+  },
+  "Breaststroke": {
+    "content": "Breaststroke is the slowest competitive stroke, known for its frog-like kick and unique arm movement. This stroke is effective for long-distance swimming as it is energy-efficient and requires less oxygen consumption.",
+    "stroke_technique": {
+      "Arm Movement": "The arms sweep out in a half-circle and then pull in towards the chest. The elbows should stay close to the body, and the hands should move in a synchronized, circular pattern. Focus on maintaining a wide arm pull to generate maximum propulsion. Keep the hands moving smoothly underwater to avoid stalling during the recovery phase.",
+      "Body Position": "Maintain a horizontal body position with a slight undulation. Keep the head just above the water’s surface, and avoid lifting it too high, as it will increase drag. Try to avoid too much vertical movement during the stroke to maintain speed and avoid wasting energy.",
+      "Breaststroke Kick": "The kick is a frog-like motion where the legs perform a circular motion, pulling inwards, then kicking outwards. Keep the knees close together during the pull phase to reduce drag. A strong and coordinated kick is vital for propulsion and efficiency, especially in long-distance events."
+    },
+    "breathing": {
+      "content": "Breathing is coordinated with the arm movement, where you lift your head out of the water when your arms sweep forward. Exhale quickly underwater to prepare for the next breath. It’s important to time your breathing to prevent disrupting your stroke rhythm.",
+      "advanced_tips": [
+        "Focus on a smooth and fluid arm pull. Exhale quickly through the nose while your head is in the water. Make sure to time your exhale so it aligns with the kick.",
+        "Minimize the time you spend lifting your head; keep the breath smooth and controlled. Keep your neck relaxed to prevent fatigue, as over-raising your head can lead to strain and imbalance."
+      ]
+    },
+    "kick_efficiency": {
+      "content": "Efficient kicking is essential for maintaining propulsion in breaststroke. A weak kick reduces speed and can increase drag. Work on making your kick circular and forceful to maximize power. Try to avoid letting your feet separate too much during the pull phase, as this increases drag.",
+      "drill": "To develop a strong breaststroke kick, practice the 'breaststroke with a kickboard' drill to isolate leg movement. You can also work on the 'two-hand pull' drill to focus on synchronization between the arms and legs."
+    },
+    "videos": [
+      {
+        "title": "Breaststroke Technique for Beginners",
+        "url": "https://www.youtube.com/watch?v=Iq5rb4xmrp8"
+      },
+      {
+        "title": "Breaststroke Kick Fundamentals",
+        "url": "https://www.youtube.com/watch?v=RHdFHGjJBrY"
+      }
+    ],
+    "olympian_advice": "Adam Peaty advises focusing on the timing between your arms and legs to maximize propulsion. Make sure your arms and legs work in sync for greater speed. He also suggests keeping a low head position to maintain momentum. Additionally, Peaty recommends keeping a quick and powerful kick throughout the stroke to avoid slowing down."
+  },
+  "Butterfly": {
+    "content": "Butterfly is a powerful stroke characterized by simultaneous arm movements and a dolphin-like kick. It’s physically demanding but offers excellent full-body workout potential, making it one of the most effective strokes for building strength and endurance.",
+    "stroke_technique": {
+      "Arm Movement": "The arms move in a simultaneous, circular motion. The hands pull through the water together, pushing back and sweeping out and up. Keep your elbows high and your hands close together for maximum propulsion. The arms should work in sync with the body’s undulation to reduce drag and increase efficiency.",
+      "Body Position": "Your body should undulate with the movement of the arms, staying streamlined and minimizing drag. The chest should lift above the water during the stroke recovery phase, but avoid lifting too high to maintain speed. Keep your legs and feet close together to reduce resistance.",
+      "Dolphin Kick": "The legs perform a simultaneous up-and-down dolphin kick. The kick should come from the hips and flow with the body undulation. The kick should be powerful and quick, with the legs remaining together to maximize propulsion. Ensure your feet stay close together and that the motion is fluid and rhythmic."
+    },
+    "breathing": {
+      "content": "Breathing in butterfly is done by lifting your head above the water at the peak of your arm recovery. Make sure to time your breath with the stroke to avoid disrupting your rhythm. Inhale quickly when you are above water and exhale deeply once your face is submerged.",
+      "advanced_tips": [
+        "Try to time your breath with your stroke and avoid lifting your head too high out of the water. Focus on smooth, relaxed breathing to avoid wasting energy.",
+        "Breathing should be quick but efficient, only lifting the head above the water long enough to get a breath."
+      ]
+    },
+    "kick_efficiency": {
+      "content": "A strong and fluid dolphin kick is essential for efficient butterfly swimming. Poor kick efficiency can cause the swimmer's body to sink, slowing them down. The legs should work together as a unit to create maximum propulsion. Make sure the kick is generated from the hips, not the knees, and that it flows in sync with the body's undulation.",
+      "drill": "The 'body dolphin drill' involves performing the butterfly kick without arm movements. This drill helps to isolate the kick and build a stronger and more efficient dolphin kick."
+    },
+    "videos": [
+      {
+        "title": "Butterfly Technique Drills",
+        "url": "https://www.youtube.com/watch?v=ZQ3u7tN8wD0"
+      },
+      {
+        "title": "Mastering Butterfly Breathing and Kicking",
+        "url": "https://www.youtube.com/watch?v=syZdG5kUu9o"
+      }
+    ],
+    "olympian_advice": "Chase Kalisz emphasizes the importance of pacing and transitioning smoothly. He recommends focusing on strong transitions, especially between backstroke and breaststroke. Kalisz also advises not to overexert during the butterfly phase, as it can cause premature fatigue. Keeping a strong but efficient rhythm is key to sustained performance."
+  }
+}
