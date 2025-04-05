@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d0d0d" />
+  <link rel="icon" type="image/x-icon" href="/assets/profile.png">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Flaticon/FontAwesome integration -->
+  <title>My Portfolio</title>
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <h1><span>My</span> Portfolio</h1>
+    <nav>
+      <a href="https://github.com/TheGrapeGuyBuisness/TheGrapeGuyBuisness.github.io" class="nav-link"><i class="fab fa-github"></i> GitHub</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Locked initially) -->
+  <section class="section intro fade-in" id="about">
+    <img src="assets/profile.png" alt="Profile Picture" class="profile-pic" />
+    <div class="bio">
+      <h2>Hi, I'm <span>Jacob</span></h2>
+      <p class="typewriter">I’m a developer and researcher, passionate about creating innovative solutions.</p> <!-- Adjusted text -->
+      <button id="exploreBtn" class="btn">Explore My Work <i class="fas fa-arrow-down"></i></button> <!-- Added Flaticon icon -->
+    </div>
+  </section>
+
+  <!-- Projects Section (Initially hidden) -->
+  <section class="section fade-in hidden" id="projects">
+    <h2 class="section-title">Projects <span>Showcase</span></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Swimming Super Search</h3>
+        <p>A Swimming development site, focusing on researching the best training methods and terminologies to improve your swimming (all ways work in progress)</p>
+        <a href="https://thegrapeguybuisness.github.io/swimming/index.html" class="btn">View Details</a>
+      </div>
+      <div class="project-card">
+        <h3>Xenia Launcher</h3>
+        <p>An updated version of Xenia Manager but in Python (Work in progress)</p>
+        <a href="https://github.com/TheGrapeGuyBuisness/Xenia-launcher" class="btn">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jacob Walker. Crafted with love and purple vibes.</p>
+  </footer>
+
+  <!-- Mode Toggle Button -->
+  <button id="modeToggle" class="mode-toggle">🌙</button>
+
+  <!-- Start Audio Button -->
+  <button id="audioStartButton">Start Audio</button>
+
+  <!-- Include Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
