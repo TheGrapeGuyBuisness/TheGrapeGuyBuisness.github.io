@@ -129,6 +129,6 @@ muteBtn.addEventListener('click', () => {
 // Volume slider functionality
 volumeSlider.addEventListener('input', () => {
   const volume = volumeSlider.value; // Get slider value (0 to 1)
-  bgm.volume = volume * 0.2; // Adjust BGM volume (keep it very low)
-  rainSound.volume = volume * 0.2; // Adjust rain sound volume (keep it very low)
+  bgm.volume = volume * 1; // Adjust BGM volume (keep it very low)
+  rainSound.volume = volume * 1; // Adjust rain sound volume (keep it very low)
 });
