@@ -105,7 +105,7 @@ audioStartButton.addEventListener('click', () => {
   // Play Rain Sound
   const rainSound = new Audio('https://www.soundjay.com/nature/rain-01.mp3'); // Use a different source if blocked
   rainSound.loop = true;
-  rainSound.volume = 0.01; // Extremely low volume for rain sound
+  rainSound.volume = 1; // Extremely low volume for rain sound
 
   rainSound.play().then(() => {
     console.log('Rain sound started');
