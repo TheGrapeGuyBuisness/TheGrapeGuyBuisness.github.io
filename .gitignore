@@ -1,0 +1,18 @@
+# Ignore everything
+/*
+
+# Except the timetabler folder
+!/timetabler/
+
+# Allow assets, css, js, and swimming folders if you need them to be included (Optional)
+!/assets/
+!/css/
+!/js/
+!/swimming/
+
+# Allow files inside timetabler folder (Optional to be explicit)
+!/timetabler/*
+
+# If you want to allow specific files in the root (e.g., README.md, index.html)
+!/README.md
+!/index.html
